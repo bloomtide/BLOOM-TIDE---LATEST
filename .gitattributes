@@ -1,0 +1,4 @@
+src/assets/images/about/whatwestandfor.png filter=lfs diff=lfs merge=lfs -text
+src/assets/images/about/Vector[[:space:]](1).png filter=lfs diff=lfs merge=lfs -text
+src/assets/images/about/bg.png filter=lfs diff=lfs merge=lfs -text
+src/assets/images/about/Vector.png filter=lfs diff=lfs merge=lfs -text
