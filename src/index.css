@@ -23,3 +23,30 @@
 .scroll-animation {
   animation: scrollLeft 20s linear infinite;
 }
+
+/* Add infinite scroll animations for integration logos */
+@keyframes scroll-right-to-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes scroll-left-to-right {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.animate-scroll-right-to-left {
+  animation: scroll-right-to-left 30s linear infinite;
+}
+
+.animate-scroll-left-to-right {
+  animation: scroll-left-to-right 30s linear infinite;
+}

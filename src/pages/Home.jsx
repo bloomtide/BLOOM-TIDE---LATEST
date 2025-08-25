@@ -169,7 +169,7 @@ const Home = () => {
           {/* Background shapes */}
           <div className="absolute -translate-y- inset-0 ">
             <svg
-              width="1530"
+              width=""
               height="649"
               viewBox="0 0 1530 649"
               fill="none"
@@ -793,12 +793,13 @@ const Home = () => {
                     Transform your business with scalable, secure web apps
                     featuring clean code, intuitive UX, and top performance.
                   </p>
-                  <p
-                    className="text-[#3594DF] font-semibold text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                  <a
+                    href="/services/web-app-development"
+                    className="text-[#3594DF] font-semibold text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 block"
                     style={{ fontFamily: "Manrope, sans-serif" }}
                   >
                     View more
-                  </p>
+                  </a>
                 </div>
               </div>
 
@@ -823,12 +824,13 @@ const Home = () => {
                     We build end-to-end mobile apps for iOS and Android that
                     boost engagement, retention, and growth.
                   </p>
-                  <p
-                    className="text-[#3594DF] font-semibold text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                  <a
+                    href="/services/mobile-development"
+                    className="text-[#3594DF] font-semibold text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 block"
                     style={{ fontFamily: "Manrope, sans-serif" }}
                   >
                     View more
-                  </p>
+                  </a>
                 </div>
               </div>
 
@@ -853,12 +855,13 @@ const Home = () => {
                     Unlock efficiency with custom software solutions that solve
                     challenges and drive real business results.
                   </p>
-                  <p
-                    className="text-[#3594DF] font-semibold text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                  <a
+                    href="/services/software-solutions"
+                    className="text-[#3594DF] font-semibold text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 block"
                     style={{ fontFamily: "Manrope, sans-serif" }}
                   >
                     View more
-                  </p>
+                  </a>
                 </div>
               </div>
 
@@ -883,12 +886,13 @@ const Home = () => {
                     We craft cohesive brand identities with logos, design
                     systems, and guidelines for digital impact.
                   </p>
-                  <p
-                    className="text-[#3594DF] font-semibold text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                  <a
+                    href="/services/branding-identity"
+                    className="text-[#3594DF] font-semibold text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 block"
                     style={{ fontFamily: "Manrope, sans-serif" }}
                   >
                     View more
-                  </p>
+                  </a>
                 </div>
               </div>
 
@@ -913,12 +917,13 @@ const Home = () => {
                     Scalable e-commerce platforms with seamless payments,
                     performance, and customer-focused experience.
                   </p>
-                  <p
-                    className="text-[#3594DF] font-semibold text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                  <a
+                    href="/services/ecommerce"
+                    className="text-[#3594DF] font-semibold text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 block"
                     style={{ fontFamily: "Manrope, sans-serif" }}
                   >
                     View more
-                  </p>
+                  </a>
                 </div>
               </div>
 
@@ -943,12 +948,13 @@ const Home = () => {
                     Boost traffic, conversions, and rankings with data-driven
                     SEO performance optimization.
                   </p>
-                  <p
-                    className="text-[#3594DF] font-semibold text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                  <a
+                    href="/services/seo-performance"
+                    className="text-[#3594DF] font-semibold text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 block"
                     style={{ fontFamily: "Manrope, sans-serif" }}
                   >
                     View more
-                  </p>
+                  </a>
                 </div>
               </div>
             </div>

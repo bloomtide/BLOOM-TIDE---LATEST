@@ -36,7 +36,7 @@ const Services = () => {
           {/* Background shapes */}
           <div className="absolute -translate-y- inset-0 ">
             <svg
-              width="1530"
+              width="100%"
               height="649"
               viewBox="0 0 1530 649"
               fill="none"
@@ -466,7 +466,7 @@ const Services = () => {
                           strokeWidth={2}
                           d="M12 4v16m8-8H4"
                         />
-                      </svg>
+                  </svg>
                     )}
                   </button>
                 </div>
@@ -581,7 +581,7 @@ const Services = () => {
                           strokeWidth={2}
                           d="M12 4v16m8-8H4"
                         />
-                      </svg>
+                  </svg>
                     )}
                   </button>
                 </div>
@@ -641,7 +641,7 @@ const Services = () => {
                           strokeWidth={2}
                           d="M12 4v16m8-8H4"
                         />
-                      </svg>
+                  </svg>
                     )}
                   </button>
                 </div>
@@ -700,7 +700,7 @@ const Services = () => {
                           strokeWidth={2}
                           d="M12 4v16m8-8H4"
                         />
-                      </svg>
+                  </svg>
                     )}
                   </button>
                 </div>
