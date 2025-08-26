@@ -150,159 +150,195 @@ const Blog = () => {
             {/* Services Grid */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {/* Service Card 1 */}
-              <div className="bg-white flex flex-col items-center justify-center gap-4 rounded-2xl p-6hover:shadow-lg transition-shadow duration-300 group relative">
-                <div className=" bg-[#cdc6ff] rounded-xl px-2 py-4">
-                  <img 
-                    src={buisnessgrowth} 
-                    alt="Business Growth" 
-                    className="w-full h-full object-contain rounded-2xl"
-                  />
+              <div className="overflow-hidden transition-transform duration-300 hover:-translate-y-2.5 group cursor-pointer">
+                <div className="bg-white flex flex-col items-center justify-center gap-4 rounded-2xl p-6">
+                  <div className=" bg-[#cdc6ff] rounded-xl px-2 py-4">
+                    <img 
+                      src={buisnessgrowth} 
+                      alt="Business Growth" 
+                      className="w-full h-full object-contain rounded-2xl"
+                    />
+                  </div>
+                  <h3 
+                    className="text-xl font-bold text-center text-black "
+                    style={{ fontFamily: "Geist, sans-serif" }}
+                  >
+                    Business Growth
+                  </h3>
+                  <p 
+                    className="text-gray-600 leading-relaxed text-center max-w-xs mx-auto"
+                    style={{ fontFamily: "Manrope, sans-serif" }}
+                  >
+                    Unlock smarter decisions through tailored strategies aligning technology with evolving business goals.
+                  </p>
+                  <a
+                    href="/services/business-growth"
+                    className="text-[#3594DF] font-semibold text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 block"
+                    style={{ fontFamily: "Manrope, sans-serif" }}
+                  >
+                    View more
+                  </a>
                 </div>
-                <h3 
-                  className="text-xl font-bold text-center text-black "
-                  style={{ fontFamily: "Geist, sans-serif" }}
-                >
-                  Business Growth
-                </h3>
-                <p 
-                  className="text-gray-600 leading-relaxed text-center max-w-xs mx-auto"
-                  style={{ fontFamily: "Manrope, sans-serif" }}
-                >
-                  Unlock smarter decisions through tailored strategies aligning technology with evolving business goals.
-                </p>
-                <button className="bg-[#3594DF] text-white px-6 py-2 rounded-lg font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  View more
-                </button>
               </div>
 
               {/* Service Card 2 */}
-              <div className="bg-white flex flex-col items-center justify-center gap-4 rounded-2xl p-6hover:shadow-lg transition-shadow duration-300 group relative">
-                <div className=" bg-[#cdc6ff] rounded-xl px-2 py-4">
-                  <img 
-                    src={cloudtransformation} 
-                    alt="Cloud Transformation" 
-                    className="w-full h-full object-contain rounded-2xl"
-                  />
+              <div className="overflow-hidden transition-transform duration-300 hover:-translate-y-2.5 group cursor-pointer">
+                <div className="bg-white flex flex-col items-center justify-center gap-4 rounded-2xl p-6">
+                  <div className=" bg-[#cdc6ff] rounded-xl px-2 py-4">
+                    <img 
+                      src={cloudtransformation} 
+                      alt="Cloud Transformation" 
+                      className="w-full h-full object-contain rounded-2xl"
+                    />
+                  </div>
+                  <h3 
+                    className="text-xl font-bold text-center text-black "
+                    style={{ fontFamily: "Geist, sans-serif" }}
+                  >
+                    Cloud Transformation
+                  </h3>
+                  <p 
+                    className="text-gray-600 leading-relaxed text-center max-w-xs mx-auto"
+                    style={{ fontFamily: "Manrope, sans-serif" }}
+                  >
+                    Adopt cloud solutions that boost efficiency, resilience, and growth without unnecessary complexity.
+                  </p>
+                  <a
+                    href="/services/cloud-transformation"
+                    className="text-[#3594DF] font-semibold text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 block"
+                    style={{ fontFamily: "Manrope, sans-serif" }}
+                  >
+                    View more
+                  </a>
                 </div>
-                <h3 
-                  className="text-xl font-bold text-center text-black "
-                  style={{ fontFamily: "Geist, sans-serif" }}
-                >
-                  Cloud Transformation
-                </h3>
-                <p 
-                  className="text-gray-600 leading-relaxed text-center max-w-xs mx-auto"
-                  style={{ fontFamily: "Manrope, sans-serif" }}
-                >
-                  Adopt cloud solutions that boost efficiency, resilience, and growth without unnecessary complexity.
-                </p>
-                <button className="bg-[#3594DF] text-white px-6 py-2 rounded-lg font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  View more
-                </button>
               </div>
 
               {/* Service Card 3 */}
-              <div className="bg-white flex flex-col items-center justify-center gap-4 rounded-2xl p-6hover:shadow-lg transition-shadow duration-300 group relative">
-                <div className=" bg-[#cdc6ff] rounded-xl px-2 py-4">
-                  <img 
-                    src={datainsights} 
-                    alt="Data Insights" 
-                    className="w-full h-full object-contain rounded-2xl"
-                  />
+              <div className="overflow-hidden transition-transform duration-300 hover:-translate-y-2.5 group cursor-pointer">
+                <div className="bg-white flex flex-col items-center justify-center gap-4 rounded-2xl p-6">
+                  <div className=" bg-[#cdc6ff] rounded-xl px-2 py-4">
+                    <img 
+                      src={datainsights} 
+                      alt="Data Insights" 
+                      className="w-full h-full object-contain rounded-2xl"
+                    />
+                  </div>
+                  <h3 
+                    className="text-xl font-bold text-center text-black "
+                    style={{ fontFamily: "Geist, sans-serif" }}
+                  >
+                    Data Insights
+                  </h3>
+                  <p 
+                    className="text-gray-600 leading-relaxed text-center max-w-xs mx-auto"
+                    style={{ fontFamily: "Manrope, sans-serif" }}
+                  >
+                    Leverage analytics to uncover opportunities, optimize operations, and accelerate decisions.
+                  </p>
+                  <a
+                    href="/services/data-insights"
+                    className="text-[#3594DF] font-semibold text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 block"
+                    style={{ fontFamily: "Manrope, sans-serif" }}
+                  >
+                    View more
+                  </a>
                 </div>
-                <h3 
-                  className="text-xl font-bold text-center text-black "
-                  style={{ fontFamily: "Geist, sans-serif" }}
-                >
-                  Data Insights
-                </h3>
-                <p 
-                  className="text-gray-600 leading-relaxed text-center max-w-xs mx-auto"
-                  style={{ fontFamily: "Manrope, sans-serif" }}
-                >
-                  Leverage analytics to uncover opportunities, optimize operations, and accelerate decisions.
-                </p>
-                <button className="bg-[#3594DF] text-white px-6 py-2 rounded-lg font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  View more
-                </button>
               </div>
 
               {/* Service Card 4 */}
-              <div className="bg-white flex flex-col items-center justify-center gap-4 rounded-2xl p-6hover:shadow-lg transition-shadow duration-300 group relative">
-                <div className=" bg-[#cdc6ff] rounded-xl px-2 py-4">
-                  <img 
-                    src={secureinnovation} 
-                    alt="Secure Innovation" 
-                    className="w-full h-full object-contain rounded-2xl"
-                  />
+              <div className="overflow-hidden transition-transform duration-300 hover:-translate-y-2.5 group cursor-pointer">
+                <div className="bg-white flex flex-col items-center justify-center gap-4 rounded-2xl p-6">
+                  <div className=" bg-[#cdc6ff] rounded-xl px-2 py-4">
+                    <img 
+                      src={secureinnovation} 
+                      alt="Secure Innovation" 
+                      className="w-full h-full object-contain rounded-2xl"
+                    />
+                  </div>
+                  <h3 
+                    className="text-xl font-bold text-center text-black "
+                    style={{ fontFamily: "Geist, sans-serif" }}
+                  >
+                    Secure Innovation
+                  </h3>
+                  <p 
+                    className="text-gray-600 leading-relaxed text-center max-w-xs mx-auto"
+                    style={{ fontFamily: "Manrope, sans-serif" }}
+                  >
+                    Build resilient systems with compliance, risk management, and proactive cybersecurity.
+                  </p>
+                  <a
+                    href="/services/secure-innovation"
+                    className="text-[#3594DF] font-semibold text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 block"
+                    style={{ fontFamily: "Manrope, sans-serif" }}
+                  >
+                    View more
+                  </a>
                 </div>
-                <h3 
-                  className="text-xl font-bold text-center text-black "
-                  style={{ fontFamily: "Geist, sans-serif" }}
-                >
-                  Secure Innovation
-                </h3>
-                <p 
-                  className="text-gray-600 leading-relaxed text-center max-w-xs mx-auto"
-                  style={{ fontFamily: "Manrope, sans-serif" }}
-                >
-                  Build resilient systems with compliance, risk management, and proactive cybersecurity.
-                </p>
-                <button className="bg-[#3594DF] text-white px-6 py-2 rounded-lg font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  View more
-                </button>
               </div>
 
               {/* Service Card 5 */}
-              <div className="bg-white flex flex-col items-center justify-center gap-4 rounded-2xl p-6hover:shadow-lg transition-shadow duration-300 group relative">
-                <div className=" bg-[#cdc6ff] rounded-xl px-2 py-4">
-                  <img 
-                    src={experiencedesign} 
-                    alt="Experience Design" 
-                    className="w-full h-full object-contain rounded-2xl"
-                  />
+              <div className="overflow-hidden transition-transform duration-300 hover:-translate-y-2.5 group cursor-pointer">
+                <div className="bg-white flex flex-col items-center justify-center gap-4 rounded-2xl p-6">
+                  <div className=" bg-[#cdc6ff] rounded-xl px-2 py-4">
+                    <img 
+                      src={experiencedesign} 
+                      alt="Experience Design" 
+                      className="w-full h-full object-contain rounded-2xl"
+                    />
+                  </div>
+                  <h3 
+                    className="text-xl font-bold text-center text-black "
+                    style={{ fontFamily: "Geist, sans-serif" }}
+                  >
+                    Experience Design
+                  </h3>
+                  <p 
+                    className="text-gray-600 leading-relaxed text-center max-w-xs mx-auto"
+                    style={{ fontFamily: "Manrope, sans-serif" }}
+                  >
+                    Create intuitive, human-centered digital products that engage users and drive measurable impact.
+                  </p>
+                  <a
+                    href="/services/experience-design"
+                    className="text-[#3594DF] font-semibold text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 block"
+                    style={{ fontFamily: "Manrope, sans-serif" }}
+                  >
+                    View more
+                  </a>
                 </div>
-                <h3 
-                  className="text-xl font-bold text-center text-black "
-                  style={{ fontFamily: "Geist, sans-serif" }}
-                >
-                  Experience Design
-                </h3>
-                <p 
-                  className="text-gray-600 leading-relaxed text-center max-w-xs mx-auto"
-                  style={{ fontFamily: "Manrope, sans-serif" }}
-                >
-                  Create intuitive, human-centered digital products that engage users and drive measurable impact.
-                </p>
-                <button className="bg-[#3594DF] text-white px-6 py-2 rounded-lg font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  View more
-                </button>
               </div>
 
               {/* Service Card 6 */}
-              <div className="bg-white flex flex-col items-center justify-center gap-4 rounded-2xl p-6hover:shadow-lg transition-shadow duration-300 group relative">
-                <div className=" bg-[#cdc6ff] rounded-xl px-2 py-4">
-                  <img 
-                    src={agiledelivery} 
-                    alt="Agile Delivery" 
-                    className="w-full h-full object-contain rounded-2xl"
-                  />
+              <div className="overflow-hidden transition-transform duration-300 hover:-translate-y-2.5 group cursor-pointer">
+                <div className="bg-white flex flex-col items-center justify-center gap-4 rounded-2xl p-6">
+                  <div className=" bg-[#cdc6ff] rounded-xl px-2 py-4">
+                    <img 
+                      src={agiledelivery} 
+                      alt="Agile Delivery" 
+                      className="w-full h-full object-contain rounded-2xl"
+                    />
+                  </div>
+                  <h3 
+                    className="text-xl font-bold text-center text-black "
+                    style={{ fontFamily: "Geist, sans-serif" }}
+                  >
+                    Agile Delivery
+                  </h3>
+                  <p 
+                    className="text-gray-600 leading-relaxed text-center max-w-xs mx-auto"
+                    style={{ fontFamily: "Manrope, sans-serif" }}
+                  >
+                    Validate concepts quickly, reduce risks, and deliver solutions with agile-driven execution.
+                  </p>
+                  <a
+                    href="/services/agile-delivery"
+                    className="text-[#3594DF] font-semibold text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 block"
+                    style={{ fontFamily: "Manrope, sans-serif" }}
+                  >
+                    View more
+                  </a>
                 </div>
-                <h3 
-                  className="text-xl font-bold text-center text-black "
-                  style={{ fontFamily: "Geist, sans-serif" }}
-                >
-                  Agile Delivery
-                </h3>
-                <p 
-                  className="text-gray-600 leading-relaxed text-center max-w-xs mx-auto"
-                  style={{ fontFamily: "Manrope, sans-serif" }}
-                >
-                  Validate concepts quickly, reduce risks, and deliver solutions with agile-driven execution.
-                </p>
-                <button className="bg-[#3594DF] text-white px-6 py-2 rounded-lg font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  View more
-                </button>
               </div>
             </div>
           </div>
